@@ -22,21 +22,21 @@ const ContactLeft = () => {
           Phone: <span className="text-lightText">+923060711693</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">muhammadalikatia123@gmail</span>
+          Email: <span className="text-lightText">muhammadalikatia123@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-          <a href="https://web.facebook.com/people/M-Ali/pfbid0PSELzFThMAjazLBkmH4HjoqVq7SAoLDoUU1fs6QDnGwJJne64XLKQq2Q9sHEKR7Nl/?mibextid=ZbWKwL"><FaFacebookF /></a> 
-          </span>
-          <span className="bannerIcon">
-          <a href="https://github.com/muhammadali35"><FaGithub /></a>
-          </span>
-          <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/muhammad-ali-0282b6275/"><FaLinkedinIn /></a>
-          </span>
+        <span className="bannerIcon">
+                  <a href ="https://web.facebook.com/people/M-Ali/pfbid0PSELzFThMAjazLBkmH4HjoqVq7SAoLDoUU1fs6QDnGwJJne64XLKQq2Q9sHEKR7Nl/?mibextid=ZbWKwL" target='_blank'><FaFacebookF /></a> 
+                  </span>
+                  <span className="bannerIcon">
+                  <a href="https://github.com/muhammadali35" target='_blank' ><FaGithub /></a>
+                  </span>
+                  <span className="bannerIcon">
+                  <a href="https://www.linkedin.com/in/muhammad-ali-0282b6275/" target='_blank'><FaLinkedinIn /></a>
+                  </span>
         </div>
       </div>
     </div>

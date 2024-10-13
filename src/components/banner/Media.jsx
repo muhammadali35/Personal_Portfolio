@@ -13,13 +13,13 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-            <a href="https://web.facebook.com/people/M-Ali/pfbid0PSELzFThMAjazLBkmH4HjoqVq7SAoLDoUU1fs6QDnGwJJne64XLKQq2Q9sHEKR7Nl/?mibextid=ZbWKwL"><FaFacebookF /></a> 
+            <a href ="https://web.facebook.com/people/M-Ali/pfbid0PSELzFThMAjazLBkmH4HjoqVq7SAoLDoUU1fs6QDnGwJJne64XLKQq2Q9sHEKR7Nl/?mibextid=ZbWKwL" target='_blank'><FaFacebookF /></a> 
             </span>
             <span className="bannerIcon">
-               <a href="https://github.com/muhammadali35"><FaGithub /></a>
+               <a href="https://github.com/muhammadali35" target='_blank' ><FaGithub /></a>
             </span>
             <span className="bannerIcon">
-               <a href="https://www.linkedin.com/in/muhammad-ali-0282b6275/"><FaLinkedinIn /></a>
+               <a href="https://www.linkedin.com/in/muhammad-ali-0282b6275/" target='_blank'><FaLinkedinIn /></a>
             </span>
           </div>
         </div>

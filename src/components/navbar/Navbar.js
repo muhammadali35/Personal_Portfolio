@@ -3,9 +3,9 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import logo from "../../assets/images/ma2.svg"; 
+import logo from "../../assets/images/alilogo.png"; 
 import { navLinksdata } from '../../constants';
-
+import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       {/* Logo Section */}
       <div className=''>
-        <img src={logo} alt="logo"  className='w-full h-24'/>
+        <img src={logo} alt="logo"  className='w-full h-20'/>
       </div>
       
       {/* Navigation Links */}
@@ -53,12 +53,7 @@ const Navbar = () => {
               
               {/* Logo & Description */}
               <div>
-                <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
-                </p>
+                <img className="w-24" src={logo} alt="logo" />
               </div>
               
               {/* Navigation Links for Mobile */}
@@ -90,13 +85,13 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                  <a href ="https://web.facebook.com/people/M-Ali/pfbid0PSELzFThMAjazLBkmH4HjoqVq7SAoLDoUU1fs6QDnGwJJne64XLKQq2Q9sHEKR7Nl/?mibextid=ZbWKwL" target='_blank'><FaFacebookF /></a> 
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                  <a href="https://github.com/muhammadali35" target='_blank' ><FaGithub /></a>
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn />
+                  <a href="https://www.linkedin.com/in/muhammad-ali-0282b6275/" target='_blank'><FaLinkedinIn /></a>
                   </span>
                 </div>
               </div>
